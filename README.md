@@ -18,12 +18,12 @@ Skriptide paigaldamiseks on kaks võimalust.
 **VÕI**
 
 1. Liikuda PowerShelli siseselt kausta, kuhu skriptid on salvestatud.
-2. Aktiveerida soovitud skript kasutades käsku >**.\(skripti_nimi).ps1**
+2. Aktiveerida soovitud skript kasutades käsku `.\(skripti_nimi).ps1`
 
 Skript ei pruugi töötada, kui grupipoliitika ei ole õigesti sätestatud.
-Selleks, et end sellega kurssi viia saab PowerShellis sisestada käsu >**Get-ExecutionPolicy**
+Selleks, et end sellega kurssi viia saab PowerShellis sisestada käsu `Get-ExecutionPolicy`
 
-Juhul, kui execution policy on "restricted", võib probleemi lahendamiseks kasutada käsku >**Set-ExecutionPolicy remotesigned**
+Juhul, kui execution policy on "restricted", võib probleemi lahendamiseks kasutada käsku `Set-ExecutionPolicy remotesigned`
 
 # Litsents
 Projekt on litsenseeritud MIT litsensi all. Litsensi detaile on võimalik näha LICENSE.md failist.
